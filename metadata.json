@@ -1,0 +1,6 @@
+{
+  "name": "CROWN & DIAL - Luxury Swiss Timepieces",
+  "description": "Premium luxury watch e-commerce destination with refined editorial craftsmanship, timeless design, and high horology timepieces.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
