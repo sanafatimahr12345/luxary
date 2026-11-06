@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
+import { IMAGES } from '../assets/images';
 
 export const PromoBannersSection: React.FC = () => {
   const { setActiveTab, setSelectedCategory } = useStore();
@@ -27,7 +28,7 @@ export const PromoBannersSection: React.FC = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/src/assets/images/banner_signature_collection_1793957424709.jpg"
+                src={IMAGES.bannerSignature}
                 alt="The Signature Collection - Gentleman with Luxury Watch"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-top filter brightness-[0.78] transition-transform duration-700 ease-out group-hover:scale-105"
@@ -63,7 +64,7 @@ export const PromoBannersSection: React.FC = () => {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/src/assets/images/banner_autumn_edit_watch_1793957426413.jpg"
+                src={IMAGES.bannerAutumnEdit}
                 alt="New for the Season - Luxury Chronograph Watch"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center filter brightness-[0.82] transition-transform duration-700 ease-out group-hover:scale-105"

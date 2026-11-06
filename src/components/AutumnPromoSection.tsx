@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, Tag } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
+import { IMAGES } from '../assets/images';
 
 export const AutumnPromoSection: React.FC = () => {
   const { setActiveTab, setSelectedCategory, applyPromoCode } = useStore();
@@ -30,7 +31,7 @@ export const AutumnPromoSection: React.FC = () => {
             {/* Background Image: Green Dial Watch on Natural Slate */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/src/assets/images/banner_autumn_refinement_1793957426303.jpg"
+                src={IMAGES.bannerAutumnRefinement}
                 alt="A Season of Refinement - Green Dial Watch on Slate"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center filter brightness-[0.78] transition-transform duration-700 ease-out group-hover:scale-105"
@@ -74,7 +75,7 @@ export const AutumnPromoSection: React.FC = () => {
             {/* Background Image: Close-up Skeleton Mechanical Movement */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/src/assets/images/banner_new_arrivals_craft_1793957425671.jpg"
+                src={IMAGES.bannerNewArrivals}
                 alt="New Arrivals - Mechanical Luxury Watch Craft"
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover object-center filter brightness-[0.78] transition-transform duration-700 ease-out group-hover:scale-105"

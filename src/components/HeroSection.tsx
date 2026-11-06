@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight, ShieldCheck, Truck, RefreshCw, Gem } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
+import { IMAGES } from '../assets/images';
 
 export const HeroSection: React.FC = () => {
   const { setActiveTab, setSelectedCategory } = useStore();
@@ -19,7 +20,7 @@ export const HeroSection: React.FC = () => {
         {/* Background Image Container with Luxury Scrims */}
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/assets/images/hero_luxury_watch_gentleman_1793957424652.jpg"
+            src={IMAGES.hero}
             alt="CROWN & DIAL Luxury Chronograph Watch Editorial"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center lg:object-[65%_center] filter brightness-[0.85]"

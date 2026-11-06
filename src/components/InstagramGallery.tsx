@@ -1,28 +1,29 @@
 import React from 'react';
 import { Instagram, ArrowUpRight, BookOpen } from 'lucide-react';
 import { useStore } from '../context/StoreContext';
+import { IMAGES } from '../assets/images';
 
 const GALLERY_POSTS = [
   {
-    image: '/src/assets/images/hero_luxury_watch_gentleman_1793957424652.jpg',
+    image: IMAGES.hero,
     tag: 'Regency Chronograph',
     handle: '@crownanddial',
     caption: 'Evening strolls by Lake Zurich with the Regency on the wrist.'
   },
   {
-    image: '/src/assets/images/banner_autumn_refinement_1793957426303.jpg',
+    image: IMAGES.bannerAutumnRefinement,
     tag: 'Autumn Edit',
     handle: '@crownanddial',
     caption: 'Sunburst forest emerald paired with aged Tuscan leather.'
   },
   {
-    image: '/src/assets/images/banner_new_arrivals_craft_1793957425671.jpg',
+    image: IMAGES.bannerNewArrivals,
     tag: 'Calibre CD-7750',
     handle: '@crownanddial',
     caption: 'Geneva stripes and heat-blued screws under 20x magnification.'
   },
   {
-    image: '/src/assets/images/banner_signature_collection_1793957424709.jpg',
+    image: IMAGES.bannerSignature,
     tag: 'Solaria Automatic',
     handle: '@crownanddial',
     caption: 'Quiet confidence in tailored wool. Moments that matter.'

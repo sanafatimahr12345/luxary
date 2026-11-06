@@ -1,4 +1,5 @@
 import { WatchProduct } from '../types';
+import { IMAGES } from '../assets/images';
 
 export const WATCH_PRODUCTS: WatchProduct[] = [
   {
@@ -10,17 +11,17 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     originalPrice: 1450,
     rating: 4.9,
     reviewCount: 68,
-    image: '/src/assets/images/watch_regency_chrono_1793957448660.jpg',
+    image: IMAGES.regencyChrono,
     gallery: [
-      '/src/assets/images/watch_regency_chrono_1793957448660.jpg',
-      '/src/assets/images/banner_autumn_edit_watch_1793957426413.jpg',
-      '/src/assets/images/banner_new_arrivals_craft_1793957425671.jpg'
+      IMAGES.regencyChrono,
+      IMAGES.bannerAutumnEdit,
+      IMAGES.bannerNewArrivals
     ],
     tag: 'Best Seller',
     colors: [
-      { name: 'Champagne & Brown', hex: '#D4AF37', image: '/src/assets/images/watch_regency_chrono_1793957448660.jpg' },
-      { name: 'Sunburst Navy', hex: '#1C2E4A', image: '/src/assets/images/banner_autumn_edit_watch_1793957426413.jpg' },
-      { name: 'Emerald Slate', hex: '#1C3A27', image: '/src/assets/images/banner_autumn_refinement_1793957426303.jpg' }
+      { name: 'Champagne & Brown', hex: '#D4AF37', image: IMAGES.regencyChrono },
+      { name: 'Sunburst Navy', hex: '#1C2E4A', image: IMAGES.bannerAutumnEdit },
+      { name: 'Emerald Slate', hex: '#1C3A27', image: IMAGES.bannerAutumnRefinement }
     ],
     description: 'An homage to grand tour racing horology. The Regency Chronograph unites a hand-finished column-wheel movement with a deep textured matte black dial and contrasting golden subdials. Encased in satin-brushed 316L stainless steel with 18k yellow gold ion plating.',
     specs: {
@@ -43,16 +44,16 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     price: 1180,
     rating: 4.8,
     reviewCount: 42,
-    image: '/src/assets/images/watch_solaria_auto_1793957447992.jpg',
+    image: IMAGES.solariaAuto,
     gallery: [
-      '/src/assets/images/watch_solaria_auto_1793957447992.jpg',
-      '/src/assets/images/banner_new_arrivals_craft_1793957425671.jpg',
-      '/src/assets/images/banner_signature_collection_1793957424709.jpg'
+      IMAGES.solariaAuto,
+      IMAGES.bannerNewArrivals,
+      IMAGES.bannerSignature
     ],
     tag: 'New In',
     colors: [
-      { name: 'Warm Champagne Rose', hex: '#E6C794', image: '/src/assets/images/watch_solaria_auto_1793957447992.jpg' },
-      { name: 'Pure Ivory Steel', hex: '#EAE6DF', image: '/src/assets/images/watch_heritage_classic_1793957448926.jpg' }
+      { name: 'Warm Champagne Rose', hex: '#E6C794', image: IMAGES.solariaAuto },
+      { name: 'Pure Ivory Steel', hex: '#EAE6DF', image: IMAGES.heritageClassic }
     ],
     description: 'Basking in the golden hour of classic Geneva watchmaking, Solaria captivates with a circular-brushed champagne sunburst dial, applied rose gold numerals, and a sapphire exhibition caseback revealing the engraved Côtes de Genève rotor.',
     specs: {
@@ -76,16 +77,16 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     originalPrice: 1050,
     rating: 4.9,
     reviewCount: 56,
-    image: '/src/assets/images/watch_heritage_classic_1793957448926.jpg',
+    image: IMAGES.heritageClassic,
     gallery: [
-      '/src/assets/images/watch_heritage_classic_1793957448926.jpg',
-      '/src/assets/images/banner_signature_collection_1793957424709.jpg',
-      '/src/assets/images/watch_solaria_auto_1793957447992.jpg'
+      IMAGES.heritageClassic,
+      IMAGES.bannerSignature,
+      IMAGES.solariaAuto
     ],
     tag: 'Special Price',
     colors: [
-      { name: 'Enamel Ivory & Blue', hex: '#F4EFE6', image: '/src/assets/images/watch_heritage_classic_1793957448926.jpg' },
-      { name: 'Onyx Midnight', hex: '#121212', image: '/src/assets/images/watch_apex_diver_1793957450456.jpg' }
+      { name: 'Enamel Ivory & Blue', hex: '#F4EFE6', image: IMAGES.heritageClassic },
+      { name: 'Onyx Midnight', hex: '#121212', image: IMAGES.apexDiver }
     ],
     description: 'An authentic masterclass in restrained elegance. Featuring fired porcelain-finish ivory enamel, heat-blued Breguet-style hands, and slender Roman numerals, the Heritage Classic slides effortlessly beneath any tailored shirt cuff.',
     specs: {
@@ -108,16 +109,16 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     price: 1350,
     rating: 5.0,
     reviewCount: 79,
-    image: '/src/assets/images/watch_apex_diver_1793957450456.jpg',
+    image: IMAGES.apexDiver,
     gallery: [
-      '/src/assets/images/watch_apex_diver_1793957450456.jpg',
-      '/src/assets/images/watch_royal_auto_1793957451076.jpg',
-      '/src/assets/images/banner_new_arrivals_craft_1793957425671.jpg'
+      IMAGES.apexDiver,
+      IMAGES.royalAuto,
+      IMAGES.bannerNewArrivals
     ],
     tag: 'Best Seller',
     colors: [
-      { name: 'Obsidian Black', hex: '#111111', image: '/src/assets/images/watch_apex_diver_1793957450456.jpg' },
-      { name: 'Nautical Navy', hex: '#172B4D', image: '/src/assets/images/banner_autumn_edit_watch_1793957426413.jpg' }
+      { name: 'Obsidian Black', hex: '#111111', image: IMAGES.apexDiver },
+      { name: 'Nautical Navy', hex: '#172B4D', image: IMAGES.bannerAutumnEdit }
     ],
     description: 'Engineered for the depths yet sculpted for black-tie gala evenings. The Apex Diver boasts a 120-click scratch-proof ceramic bezel, Super-LumiNova BGW9 blue luminescence, a helium escape crown valve, and 300 meters of certified water resistance.',
     specs: {
@@ -140,15 +141,15 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     price: 890,
     rating: 4.9,
     reviewCount: 38,
-    image: '/src/assets/images/watch_luna_petite_1793957451132.jpg',
+    image: IMAGES.lunaPetite,
     gallery: [
-      '/src/assets/images/watch_luna_petite_1793957451132.jpg',
-      '/src/assets/images/watch_solaria_auto_1793957447992.jpg'
+      IMAGES.lunaPetite,
+      IMAGES.solariaAuto
     ],
     tag: 'New In',
     colors: [
-      { name: 'Yellow Gold & Pearl', hex: '#D4AF37', image: '/src/assets/images/watch_luna_petite_1793957451132.jpg' },
-      { name: 'Rose Gold Shimmer', hex: '#D9A08B', image: '/src/assets/images/watch_luna_petite_1793957451132.jpg' }
+      { name: 'Yellow Gold & Pearl', hex: '#D4AF37', image: IMAGES.lunaPetite },
+      { name: 'Rose Gold Shimmer', hex: '#D9A08B', image: IMAGES.lunaPetite }
     ],
     description: 'A poetic celebration of luminous elegance. Luna Petite features a genuine Tahitian natural mother-of-pearl dial framed by 48 handset brilliant-cut pavé diamonds on the bezel, completed with a fluid Milanese mesh bracelet.',
     specs: {
@@ -171,16 +172,16 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     price: 1420,
     rating: 5.0,
     reviewCount: 94,
-    image: '/src/assets/images/watch_royal_auto_1793957451076.jpg',
+    image: IMAGES.royalAuto,
     gallery: [
-      '/src/assets/images/watch_royal_auto_1793957451076.jpg',
-      '/src/assets/images/banner_new_arrivals_craft_1793957425671.jpg',
-      '/src/assets/images/watch_apex_diver_1793957450456.jpg'
+      IMAGES.royalAuto,
+      IMAGES.bannerNewArrivals,
+      IMAGES.apexDiver
     ],
     tag: 'Best Seller',
     colors: [
-      { name: 'Tapisserie Blue', hex: '#1E3A5F', image: '/src/assets/images/watch_royal_auto_1793957451076.jpg' },
-      { name: 'Silver Slate', hex: '#A8A9AD', image: '/src/assets/images/watch_royal_auto_1793957451076.jpg' }
+      { name: 'Tapisserie Blue', hex: '#1E3A5F', image: IMAGES.royalAuto },
+      { name: 'Silver Slate', hex: '#A8A9AD', image: IMAGES.royalAuto }
     ],
     description: 'An architectural icon of haute horlogerie. Hand-satin-finished octagonal bezel accented with 8 hexagonal polished white gold screws. The signature guilloché "Grand Tapisserie" patterned dial catches illumination from every angle.',
     specs: {
@@ -204,14 +205,14 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     originalPrice: 1650,
     rating: 4.9,
     reviewCount: 51,
-    image: '/src/assets/images/banner_autumn_refinement_1793957426303.jpg',
+    image: IMAGES.bannerAutumnRefinement,
     gallery: [
-      '/src/assets/images/banner_autumn_refinement_1793957426303.jpg',
-      '/src/assets/images/watch_regency_chrono_1793957448660.jpg'
+      IMAGES.bannerAutumnRefinement,
+      IMAGES.regencyChrono
     ],
     tag: 'Special Price',
     colors: [
-      { name: 'Forest Emerald', hex: '#1E3F20', image: '/src/assets/images/banner_autumn_refinement_1793957426303.jpg' }
+      { name: 'Forest Emerald', hex: '#1E3F20', image: IMAGES.bannerAutumnRefinement }
     ],
     description: 'Crafted specifically for the Autumn Edit. Deep forest green sunburst dial paired with a coin-edge fluted bezel and rich distressed brown leather strap. Part of our seasonal refinement campaign offering up to 20% off.',
     specs: {
@@ -234,13 +235,13 @@ export const WATCH_PRODUCTS: WatchProduct[] = [
     price: 240,
     rating: 4.8,
     reviewCount: 33,
-    image: '/src/assets/images/cat_accessories_straps_1793957470523.jpg',
+    image: IMAGES.catAccessories,
     gallery: [
-      '/src/assets/images/cat_accessories_straps_1793957470523.jpg'
+      IMAGES.catAccessories
     ],
     tag: 'New In',
     colors: [
-      { name: 'Cognac Tuscan Leather', hex: '#A65D2E', image: '/src/assets/images/cat_accessories_straps_1793957470523.jpg' }
+      { name: 'Cognac Tuscan Leather', hex: '#A65D2E', image: IMAGES.catAccessories }
     ],
     description: 'Keep your valued timepieces secured on journeys. Includes 3-slot watch roll in supple Tuscan vegetable-tanned leather, hand-turned walnut spring bar tool, and two interchangeable top-grain calfskin straps.',
     specs: {
@@ -261,49 +262,49 @@ export const CATEGORIES_DATA = [
   {
     id: 'men',
     title: "Men's Watches",
-    image: '/src/assets/images/watch_regency_chrono_1793957448660.jpg',
+    image: IMAGES.regencyChrono,
     filterCategory: 'Men',
     count: '14 Models'
   },
   {
     id: 'women',
     title: "Women's Watches",
-    image: '/src/assets/images/watch_luna_petite_1793957451132.jpg',
+    image: IMAGES.lunaPetite,
     filterCategory: 'Women',
     count: '9 Models'
   },
   {
     id: 'chronograph',
     title: 'Chronograph',
-    image: '/src/assets/images/banner_autumn_edit_watch_1793957426413.jpg',
+    image: IMAGES.bannerAutumnEdit,
     filterCategory: 'Chronograph',
     count: '8 Models'
   },
   {
     id: 'automatic',
     title: 'Automatic',
-    image: '/src/assets/images/watch_royal_auto_1793957451076.jpg',
+    image: IMAGES.royalAuto,
     filterCategory: 'Automatic',
     count: '16 Models'
   },
   {
     id: 'dress',
     title: 'Dress Watches',
-    image: '/src/assets/images/watch_heritage_classic_1793957448926.jpg',
+    image: IMAGES.heritageClassic,
     filterCategory: 'Dress',
     count: '11 Models'
   },
   {
     id: 'diver',
     title: 'Dive Watches',
-    image: '/src/assets/images/watch_apex_diver_1793957450456.jpg',
+    image: IMAGES.apexDiver,
     filterCategory: 'Diver',
     count: '6 Models'
   },
   {
     id: 'accessories',
     title: 'Accessories',
-    image: '/src/assets/images/cat_accessories_straps_1793957470523.jpg',
+    image: IMAGES.catAccessories,
     filterCategory: 'Accessories',
     count: '12 Items'
   }

@@ -182,12 +182,13 @@ export const FeaturedWatchesSection: React.FC = () => {
                 )}
 
                 {/* Watch Photography Container with Quick View on Hover */}
-                <div className="relative w-full aspect-square bg-[#fbf9f5] flex items-center justify-center overflow-hidden mb-4">
+                <div className="relative w-full aspect-square bg-[#f8f6f0] flex items-center justify-center overflow-hidden mb-4">
                   <img
                     src={displayImage}
                     alt={product.name}
                     referrerPolicy="no-referrer"
-                    className="watch-card-img w-full h-full object-contain p-2 mix-blend-multiply"
+                    loading="lazy"
+                    className="watch-card-img w-full h-full object-cover p-0"
                   />
 
                   {/* Quick View Button (Reveals on Hover) */}
